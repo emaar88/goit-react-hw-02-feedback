@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classes from "./Statistics.module.css";
+import Section from "../Section/Section";
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
@@ -15,11 +16,19 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
         </li>
       ) : (
         <li className={classes.listItem}>
-          Positive Percentage: {positivePercentage}
+          Positive Percentage: {positivePercentage}%
         </li>
       )}
     </ul>
   );
+};
+
+Section.propTypes = {
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  positivePercentage: PropTypes.number.isRequired,
 };
 
 export default Statistics;

@@ -41,9 +41,9 @@ class App extends Component {
         <Section title="Statistics">
           {countClicks > 0 ? (
             <Statistics
-              good={this.state.good}
-              neutral={this.state.neutral}
-              bad={this.state.bad}
+              good={good}
+              neutral={neutral}
+              bad={bad}
               total={countClicks}
               positivePercentage={this.countPositiveFeedbackPercentage()}
             ></Statistics>
