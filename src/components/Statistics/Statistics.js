@@ -1,6 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classes from "./Statistics.module.css";
+<<<<<<< HEAD
+=======
+import Section from "../Section/Section";
+>>>>>>> 34d33a5305cb06cb91bbd9e954ab95f98393cf63
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
@@ -22,7 +26,11 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   );
 };
 
+<<<<<<< HEAD
 Statistics.propTypes = {
+=======
+Section.propTypes = {
+>>>>>>> 34d33a5305cb06cb91bbd9e954ab95f98393cf63
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
