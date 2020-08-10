@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #d64305;
+  border: 1px solid #d64305;
+  border-radius: 10px;
+  margin: 5px 0;
+  min-width: 30px;
+  width: 20%;
+  transition: 0.5s all;
+}
+
+.button:hover {
+  background-color: red;
+}
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
