@@ -12,7 +12,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
       <li className={classes.listItem}>Total: {total}</li>
       {positivePercentage > 50 ? (
         <li className={classes.listItem || classes.listItemTrue}>
-          Positive Percentage: {positivePercentage}
+          Positive Percentage: {positivePercentage}%
         </li>
       ) : (
         <li className={classes.listItem}>
