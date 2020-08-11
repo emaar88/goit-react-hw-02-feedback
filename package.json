@@ -6,10 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-<<<<<<< HEAD
     "gh-pages": "^3.1.0",
-=======
->>>>>>> 1884fa7b23089a6bf4bb6fd8133257d47dd4092b
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -18,13 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-=======
-    "eject": "react-scripts eject"
->>>>>>> 1884fa7b23089a6bf4bb6fd8133257d47dd4092b
   },
   "eslintConfig": {
     "extends": "react-app"
